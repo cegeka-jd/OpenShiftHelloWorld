@@ -56,7 +56,9 @@ public class HelloWorldServlet extends HttpServlet {
       PrintWriter writer = resp.getWriter();
       writer.println(PAGE_HEADER);
       writer.println("<h1>" + helloService.createHelloMessage("World") + "</h1><BR>");
-      writer.println("<h1>" + System.getProperty("com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome") + "</h1>");
+      String welcome = System.getProperty("com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome");
+      if (welcome==null) welcome = "Please set system property: com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome";
+      writer.println("<h1>" + welcome + "</h1>");
       writer.println(PAGE_FOOTER);
       writer.close();
    }
