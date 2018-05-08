@@ -30,7 +30,7 @@
     </extensions>
     
     <system-properties>
-        <property name="com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome" value="Hosted by HI66510 using C:\Users\joerid\EAP-6.4.0\standalone\configuration\standalone.xml"/>
+        <property name="com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome" value="Hosted by MCP at openshift.cegeka.com"/>
     </system-properties>
     
     <management>
@@ -279,7 +279,7 @@
                 <protocol type="AUTH">
                     <property name="auth_class">org.jgroups.auth.MD5Token</property>
                     <property name="token_hash">SHA</property>
-                    <property name="auth_value">3Fo2Ijfd</property>
+                    <property name="auth_value">2cOnvcDG</property>
                 </protocol>
 
                 <protocol type="pbcast.GMS"/>
@@ -303,7 +303,7 @@
                 <protocol type="AUTH">
                     <property name="auth_class">org.jgroups.auth.MD5Token</property>
                     <property name="token_hash">SHA</property>
-                    <property name="auth_value">3Fo2Ijfd</property>
+                    <property name="auth_value">2cOnvcDG</property>
                 </protocol>
 
                 <protocol type="pbcast.GMS"/>
