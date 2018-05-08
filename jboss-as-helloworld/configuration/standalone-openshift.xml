@@ -30,7 +30,7 @@
     </extensions>
     
     <system-properties>
-        <property name="com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome" value="Hosted by MCP at openshift.cegeka.com"/>
+        <property name="com.cegeka.outsourcing.middleware.jboss.as.management.defaults.welcome" value="Hosted by Red Hat JBoss Enterprise Application Platform - Version 6.4.19.GA on MCP at openshift.cegeka.com"/>
     </system-properties>
     
     <management>
